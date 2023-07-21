@@ -1,12 +1,13 @@
 spec_version: v1.18
-identifier: LazyOrbit
-$kref: '#/ckan/spacedock/3258'
-license: CC-BY-SA-4.0
+identifier: Kesa
+$kref: '#/ckan/spacedock/3409'
 $vref: '#/ckan/space-warp'
+license: MIT
 tags:
   - plugin
 depends:
   - name: SpaceWarp
 install:
-  - find: LazyOrbit
+  - find: kesa
     install_to: BepInEx/plugins
+x_via: Automated SpaceDock CKAN submission
