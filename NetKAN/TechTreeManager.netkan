@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: TechTreeManager
+$kref: '#/ckan/spacedock/3527'
+license: MIT
+tags:
+  - plugin
+install:
+  - find: TechTreeManager
+    install_to: BepInEx/plugins
+    filter_regexp: \.pdb$
+depends:
+  - name: SpaceWarp
+  - name: ShadowUtilityLIB
+x_via: Automated SpaceDock CKAN submission

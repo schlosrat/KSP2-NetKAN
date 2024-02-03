@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: KESASolar
+$kref: '#/ckan/spacedock/3453'
+$vref: '#/ckan/space-warp'
+license: GPL-3.0
+tags:
+  - parts
+depends:
+  - name: SpaceWarp
+  - name: PatchManager
+install:
+  - find: kesasolar
+    install_to: BepInEx/plugins

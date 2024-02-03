@@ -1,13 +1,9 @@
 spec_version: v1.18
 identifier: BetterPartsManager
 $kref: '#/ckan/spacedock/3292'
-$vref: '#/ckan/space-warp'
 license: CC-BY-NC-ND
 tags:
   - plugin
   - editor
 depends:
-  - name: SpaceWarp
-install:
-  - find: kerbal_part_manager
-    install_to: BepInEx/plugins
+  - name: QuantumLoader

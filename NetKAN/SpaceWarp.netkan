@@ -1,4 +1,27 @@
-spec_version: v1.32
+spec_version: v1.34
+identifier: SpaceWarp
+name: SpaceWarp
+$kref: '#/ckan/github/SpaceWarpDev/SpaceWarp'
+x_netkan_version_edit:
+  find: 'spacewarp-'
+  replace: ''
+  strict: false
+$vref: '#/ckan/space-warp'
+license: MIT
+tags:
+  - plugin
+  - library
+depends:
+  - name: BepInEx
+  - name: UITKforKSP2
+install:
+  - find: BepInEx
+    install_to: GameRoot
+    include_only:
+      - patchers
+      - plugins
+---
+spec_version: v1.34
 identifier: SpaceWarp
 name: SpaceWarp
 $kref: '#/ckan/spacedock/3277'
